@@ -1,0 +1,15 @@
+-Dhosts=127.0.0.1
+-DkeyFilePath=/test/keys.txt
+-DreportTimeSeconds=5
+-DwriteThreads=5
+-DwriteTestDurationSeconds=13
+-DreadThreads=5
+-DreadTestDurationSeconds=10
+-DmixedThreads=5
+-DmixedTestDurationSeconds=60
+-DinsertsPerThread=10
+-DdeletesPerThread=1
+-DreadsPerThread=10
+-DrandomKeyFilePath=/test/keys.txt
+-DdeleteKeyFilePath=/test/keys.txt
+-DmetricsFolderPath=/test/metrics/
