@@ -48,7 +48,7 @@ public class PerfUtil {
 		Integer reportTime = Integer.parseInt(System.getProperty("reportTimeSeconds"));
 		if(reportTime==null || reportTime<=0){
 			reportTime = 30;
-		}
+		} 
 		reporter.start(reportTime, TimeUnit.SECONDS);
 		
 		
