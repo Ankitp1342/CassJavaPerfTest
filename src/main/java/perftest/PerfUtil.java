@@ -73,7 +73,7 @@ public class PerfUtil {
 		}
 		
 		logger.info("READ CONSISTENCY: " + readConsistency);
-		logger.info("WRITE CONSISTENCY: " + writeConsistency);
+		logger.info("WRITE CONSISTENCY: " + writeConsistency );
 	}
 	public static void ratioReadKeys(){
 		
