@@ -50,7 +50,7 @@ public class PerfUtil {
 			reportTime = 30;
 		} 
 		reporter.start(reportTime, TimeUnit.SECONDS);
-		
+
 		
 		Charset charset = Charset.forName("US-ASCII");
 		try{
